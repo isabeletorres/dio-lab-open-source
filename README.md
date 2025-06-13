@@ -44,6 +44,50 @@ Aprender o básico sobre contribuição no GitHub.
   </tbody>
 </table>
 
+# 🧠 Padrões de Nomes de Branchs
+
+Organizar os nomes das branches ajuda a manter o controle e entendimento do fluxo de desenvolvimento. Abaixo estão alguns padrões utilizados em projetos profissionais.
+
+---
+
+## 🌿 Prefixos por Tipo de Trabalho
+
+| Prefixo       | Descrição                                 | Exemplo                                      |
+|---------------|-------------------------------------------|----------------------------------------------|
+| `feature/`    | Nova funcionalidade                       | `feature/login-page`                         |
+| `bugfix/`     | Correção de bugs identificados            | `bugfix/fix-null-pointer-login`              |
+| `hotfix/`     | Correções urgentes em produção            | `hotfix/patch-auth-token`                    |
+| `chore/`      | Tarefas de manutenção (build, configs)    | `chore/update-eslint-config`                 |
+| `refactor/`   | Melhorias de código sem alterar lógica    | `refactor/user-service-structure`            |
+| `test/`       | Criação ou melhoria de testes             | `test/add-login-unit-tests`                  |
+| `docs/`       | Alterações na documentação                | `docs/update-readme-deployment`              |
+| `release/`    | Preparação de uma nova versão             | `release/v1.2.0`                              |
+
+---
+
+## 🧩 Complementos Úteis no Nome da Branch
+
+- Use **hífens** para separar palavras:
+  - `feature/add-user-authentication`
+
+- Inclua o **ID da tarefa** (Jira, Trello, etc.) se necessário:
+  - `feature/123-login-authentication`
+  - `bugfix/JIRA-456-fix-session-expiry`
+
+- Inclua o **nome da equipe ou autor** (opcional):
+  - `feature/isabele/email-verification`
+  - `refactor/backend/cache-cleanup`
+
+---
+
+## 📌 Exemplos Completos
+
+- `feature/123-add-payment-gateway`
+- `bugfix/456-remove-duplicate-users`
+- `hotfix/fix-prod-env-db-connection`
+- `chore/ci-pipeline-improvements`
+- `docs/add-api-usage-gui
+
 ---
 ## Desafio de Projeto da DIO
 Agora que você já sabe as formas de contribuir em um projeto Open Source, está na hora de colocar em prática o seu conhecimento sobre contribuição no GitHub! <br>
